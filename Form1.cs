@@ -14,7 +14,7 @@ namespace Quad_Design2
 
         private void StartBtn_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            Form2 form2 = new();
             form2.ShowDialog();
         }
     }

@@ -1,19 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Drawing.Printing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Drawing.Printing;
 
 namespace Quad_Design2
 {
     public partial class Form2 : Form
     {
-        private PrintDocument PrintDocument1 = new PrintDocument();
+        private PrintDocument PrintDocument1 = new();
         public Form2()
         {
             InitializeComponent();
@@ -104,7 +95,7 @@ namespace Quad_Design2
 
         private void AboutBtn_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            Form3 form3 = new();
             form3.ShowDialog();
         }
     }
