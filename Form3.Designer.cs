@@ -38,16 +38,16 @@
             // richTextBox1
             // 
             richTextBox1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            richTextBox1.Location = new Point(1, 3);
+            richTextBox1.Location = new Point(1, 15);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(652, 243);
+            richTextBox1.Size = new Size(684, 535);
             richTextBox1.TabIndex = 0;
             richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.fig_16;
-            pictureBox1.Location = new Point(1, 252);
+            pictureBox1.Location = new Point(724, 15);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(243, 186);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -56,7 +56,7 @@
             // 
             // CloseBtn
             // 
-            CloseBtn.Location = new Point(709, 410);
+            CloseBtn.Location = new Point(815, 549);
             CloseBtn.Name = "CloseBtn";
             CloseBtn.Size = new Size(75, 23);
             CloseBtn.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(979, 594);
             Controls.Add(CloseBtn);
             Controls.Add(pictureBox1);
             Controls.Add(richTextBox1);
