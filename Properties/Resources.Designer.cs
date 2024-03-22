@@ -63,6 +63,26 @@ namespace Quad_Design2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fig_16 {
+            get {
+                object obj = ResourceManager.GetObject("fig-16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap polarisation {
+            get {
+                object obj = ResourceManager.GetObject("polarisation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap quad {
             get {
                 object obj = ResourceManager.GetObject("quad", resourceCulture);

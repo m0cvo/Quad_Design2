@@ -45,6 +45,8 @@
             ResetBtn = new Button();
             CloseBtn = new Button();
             pictureBox1 = new PictureBox();
+            PrintBtn = new Button();
+            AboutBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -164,6 +166,7 @@
             CalcBtn.TabIndex = 12;
             CalcBtn.Text = "Calculate";
             CalcBtn.UseVisualStyleBackColor = true;
+            CalcBtn.Click += CalcBtn_Click;
             // 
             // ResetBtn
             // 
@@ -179,7 +182,7 @@
             // CloseBtn
             // 
             CloseBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            CloseBtn.Location = new Point(344, 329);
+            CloseBtn.Location = new Point(537, 330);
             CloseBtn.Name = "CloseBtn";
             CloseBtn.Size = new Size(75, 23);
             CloseBtn.TabIndex = 14;
@@ -196,11 +199,35 @@
             pictureBox1.TabIndex = 15;
             pictureBox1.TabStop = false;
             // 
+            // PrintBtn
+            // 
+            PrintBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            PrintBtn.Location = new Point(345, 329);
+            PrintBtn.Name = "PrintBtn";
+            PrintBtn.Size = new Size(75, 23);
+            PrintBtn.TabIndex = 16;
+            PrintBtn.Text = "Print";
+            PrintBtn.UseVisualStyleBackColor = true;
+            PrintBtn.Click += PrintBtn_Click;
+            // 
+            // AboutBtn
+            // 
+            AboutBtn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            AboutBtn.Location = new Point(442, 330);
+            AboutBtn.Name = "AboutBtn";
+            AboutBtn.Size = new Size(75, 23);
+            AboutBtn.TabIndex = 17;
+            AboutBtn.Text = "About";
+            AboutBtn.UseVisualStyleBackColor = true;
+            AboutBtn.Click += AboutBtn_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(AboutBtn);
+            Controls.Add(PrintBtn);
             Controls.Add(pictureBox1);
             Controls.Add(CloseBtn);
             Controls.Add(ResetBtn);
@@ -243,5 +270,7 @@
         private Button ResetBtn;
         private Button CloseBtn;
         private PictureBox pictureBox1;
+        private Button PrintBtn;
+        private Button AboutBtn;
     }
 }
