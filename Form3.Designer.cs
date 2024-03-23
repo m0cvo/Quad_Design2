@@ -56,7 +56,7 @@
             // 
             // CloseBtn
             // 
-            CloseBtn.Location = new Point(815, 549);
+            CloseBtn.Location = new Point(797, 290);
             CloseBtn.Name = "CloseBtn";
             CloseBtn.Size = new Size(75, 23);
             CloseBtn.TabIndex = 2;
