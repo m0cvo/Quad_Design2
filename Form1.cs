@@ -17,5 +17,10 @@ namespace Quad_Design2
             Form2 form2 = new();
             form2.ShowDialog();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

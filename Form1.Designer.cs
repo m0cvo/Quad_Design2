@@ -53,9 +53,10 @@
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(248, 122);
             label2.Name = "label2";
-            label2.Size = new Size(286, 21);
+            label2.Size = new Size(281, 21);
             label2.TabIndex = 1;
-            label2.Text = "Copyrtight (c) N.Booth for Mogpie 2024";
+            label2.Text = "Copyright (c) N.Booth for Mogpie 2024";
+            label2.Click += label2_Click;
             // 
             // pictureBox1
             // 

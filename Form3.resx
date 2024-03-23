@@ -120,6 +120,15 @@
   <data name="richTextBox1.Text" xml:space="preserve">
     <value>Quad Design Calculator
 
+This calculator is used to calculate the perimeters of each element of a 4 element Quad Beam. 
+This type of antenna is used mainly at VHF frequencies and above although it may also be 
+used for the higher HF bands.  At frequencies below 14MHz (20m band) the size may be too
+much realistically.  
+
+All results are in metres (m).
+
+------------------------------------------------------------------------------------------------------
+
 Copyright 2024 Nigel Booth for Mogpie
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -133,13 +142,7 @@ Copyright 2024 Nigel Booth for Mogpie
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-
-This calculator is used to calculate the perimeters of each element of a 4 element Quad Beam. 
-This type of antenna is used mainly at VHF frequencies and above although it may also be 
-used for the higher HF bands.  At frequencies below 14MHz (20m band) the size may be too
-much realistically.  
-
-All results are in metres (m).</value>
+</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
